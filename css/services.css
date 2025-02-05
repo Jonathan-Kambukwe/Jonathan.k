@@ -1,0 +1,67 @@
+
+.btn2
+{
+	text-align: center;
+	padding: 8px 15px;
+	border-radius: 10px;
+    color: white;
+    border:1px solid #008080;
+	text-decoration: none;
+	color: #008080;
+}
+.btn2:hover
+{
+	background: #008080;
+	color: white;
+    transition: 0.2s ease-in-out;
+}
+.content
+{
+	width:90%;
+	margin: auto;
+	margin-top: 20vh;
+}
+h1
+{
+	text-align: center;
+
+}
+.content p
+{
+	font-size: 12px;
+}
+.card-box
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card
+{
+	width: 25%;
+	margin: 0 0 10px 10px;
+	padding: 7% 3%;
+	border: 1px solid #008080;
+	border-radius: 10px;
+	color: #0A0A26;
+	  transition: background 0.3s ease, transform 0.3s ease;
+}
+.card:hover
+{
+	background: linear-gradient(white,teal,#0A0A26);
+	transform: translateY(-8px);
+}
+
+@media (max-width:570px)
+{
+	.card
+	{
+		width: 40%;
+	}
+}
+@media (max-width:460px)
+{
+	.card
+	{
+		width: 90%;
+	}
+}

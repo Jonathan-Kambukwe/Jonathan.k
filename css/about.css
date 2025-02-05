@@ -1,0 +1,50 @@
+.content
+{
+	width: 55%;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 15px;
+ 	margin-bottom: 100px;
+}
+.details
+{
+	width: 80%;
+	margin:auto;
+}
+.details p
+{
+	font-size: 13px;
+	border-bottom: 1px solid #E0E0E0;
+	display: block;
+}
+.education
+{
+		text-align: center;
+		width: 80%;
+		margin: auto;
+}
+.education h1
+{
+	text-align: center;
+}
+.education p
+{
+	font-size: 13px	text-align: left;
+};
+
+.education h4
+{
+	text-decoration: underline;
+}
+@media (max-width:700px)
+{
+	.content{
+		width: 70%;
+	}
+}
+@media (max-width:460px)
+{
+	.content{
+		width: 95%;
+	}
+}
