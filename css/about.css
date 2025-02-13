@@ -23,9 +23,10 @@
 		width: 80%;
 		margin: auto;
 }
-.education h1
+.education h1,.details h1
 {
 	text-align: center;
+	text-decoration: underline;
 }
 .education p
 {
@@ -47,4 +48,10 @@
 	.content{
 		width: 95%;
 	}
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: teal;
+	font-size: 22px;
 }

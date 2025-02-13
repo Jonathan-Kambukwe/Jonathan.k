@@ -1,4 +1,11 @@
-
+* {
+    transition: hover .3s ease-in-out, focus .3s ease-in-out;
+  }
+  
+body
+{
+    font-style: normal;
+}
 form
 {
     width: 30%;
@@ -6,49 +13,137 @@ form
     text-align: center;
     padding: 20px 20px;
     height: auto;
-    border: 1px solid #008080;
-    margin-top: 17vh;
+    background: rgba(221, 222, 255, 0.904);
+    border:none;
+    margin-top: 150px;
+    margin-bottom: 150px;
     border-radius: 10px;
-    color: white;
+    color: black;
     padding: 20px;
-    box-shadow: 0 0 15px #008080;
+    box-shadow: 0 0 10px rgb(182, 187, 211);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+form h1
+{
+    background: linear-gradient(to right , teal,seagreen,rebeccapurple,purple);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.2rem;
 }
 input, select, textarea
 {
-    width: 80%;
-    height: 5vh;
     width: 100%;
-    padding: 12px;
+    height: 50px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    border: 1px solid #E0E0E0;
-    border-radius: 7px;
-    background:#0A0A26;
+    border: none;
+    border-radius: 10px;
+    background: rgb(182, 187, 211);
     padding: 5px 10px;
-    color: lightgray;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    resize: none;
+    border: 2px solid rgb(182, 187, 211);
 }
-input[type=submit] {
+i
+{
+    background: linear-gradient(to right , teal,seagreen);
+    background-clip: text;
+    color: transparent;
+    transition: transform .1s ease-in-out;
+}
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.phone-input select {
+  width: auto;
+  min-width: 90px;
+  cursor: pointer;
+  color:gray;
+background: rgb(182, 187, 211);
+}
+.phone-input select:focus
+{
+        background: transparent;
+    outline: none;
+    border: 2px solid rgb(182, 187, 211);
+}
+
+.phone-input input {
+  flex: 1;
+}
+
+i:hover
+{
+    transform: scale(1.09);
+}
+
+input .double
+{
+    display: flex;
+    width: 5%;
+}
+textarea
+{
+    height: 100px;
+}
+
+input:hover, select:hover, textarea:hover
+{
+    background: rgb(164, 168, 189);
+    transform: scale(1.01);
+    border: 2px solid rgb(164, 168, 189);
+    transition: .3s ease-in-out;
+}
+input:focus , select:focus, textarea:focus
+{
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(182, 187, 211);
+}
+
+
+input[type=submit] 
+{
 	text-align: center;
-	padding: 8px 15px;
-	padding: 8px 15px;
-	border-radius: 10px;
+	padding: 7px 15px;
+    cursor: pointer;
+	border-radius: 20px;
     color: white;
-    background: #008080;
-	border: none;
+    background: linear-gradient(to right , teal,seagreen);
+    font-size: .8rem;
+    width: 40%;
+    border: none;
 	text-decoration: none;
 }
 
 input[type=submit]:hover 
 {
-     transition: 0.2s ease-in-out;
-    box-shadow: 0 0 15px #008080;
+    background: linear-gradient(to right , rgb(1, 104, 104),rgb(36, 109, 68));
+    transition: 0.2s ease-in-out;
 }
 
+.double
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -25px;
+}
+.double input
+{
+    width: 49.5%;
+}
 
-
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1300px)
 {
 
 	form
@@ -61,6 +156,13 @@ input[type=submit]:hover
 {
 	form
 	{
-		margin-top: 5vh;
+		width: 80%;
+        margin-top: 20px;
 	}
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: teal;
+    font-size: 22px;
 }

@@ -3,8 +3,6 @@
 	width: 60%;
 	margin:auto;
 	margin-top: 200px;
-	
-	
 }
 .intro p
 {
@@ -45,29 +43,55 @@
 	font-size: 1rem;
 	color: lightgray;
 }
-.content h1{
+.content h1
+{
 	text-align: center;
 }
+.progress
+{
+	margin-top: 150px;
+}
 
-.card-box
+.updates
+{
+	margin-top: 150px;
+}
+.container
 {
 	display: flex;
-	flex-wrap: wrap;
-}
-.card
-{
-	min-width: 25%;
-	margin: 0 0 10px 10px;
-	padding: 7% 3%;
-	border: 1px solid #008080;
+	padding: 20px 10px;
+	width: 70%;
 	border-radius: 10px;
-	color: #0A0A26;
-	  transition: background 0.3s ease, transform 0.3s ease;
+	height: auto;
+	gap: 1em;
+	min-width: 50%;
+	background: lightgray;
+	margin: auto;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+	box-shadow: 0px 0px 10px black;
+	border: 1px solid gray;
 }
-.card:hover
+.container p
 {
-	background: linear-gradient(white,teal,#0A0A26);
-	transform: translateY(-8px);
+	color: black;
+	width: 90%;
+	margin: auto;
+}
+.container::webkit-scrollbar
+{
+	display: ;
+}
+.cards
+{
+	scroll-snap-align: start;
+	border-radius: 10px;
+	flex-shrink: 0;
+	width: 100%;
+	margin: auto;
+	border-radius: 1px solid teal;
+	aspect-ratio: 3/2;
 }
 
 .progress h2 
@@ -81,10 +105,10 @@
     margin-bottom: 5px;
 }
 .progress:hover .fill {
-    width: 80%;
+    width: 70%;
 }
 .progress:hover .fill1 {
-    width: 60%;
+    width: 50%;
 }
 .progress:hover .fill2 {
     width: 5%;
@@ -104,7 +128,7 @@
 .fill, .fill1, .fill2, .fill3 {
     height: 10px;
     border-radius: 5px;
-    background: seagreen;
+    background: linear-gradient(to right , teal,seagreen);
     width: 0%;
     transition: width 0.6s ease-in-out;
 }
@@ -154,6 +178,7 @@
 		margin: auto;
 		margin-top: 200px;
 		width: 80%;
+		text-align: center;
 	}
 	.intro img
 	{
@@ -172,6 +197,7 @@
 		width: 100%;
 		font-size: 3rem;
 		font-weight: 800px;
+		color: teal;
 	}
 }
 @media (max-width:570px)
@@ -179,6 +205,10 @@
 	.card
 	{
 		width: 40%;
+	}
+	.content
+	{
+		width: 90%;
 	}
 }
 @media (max-width:460px)
@@ -188,3 +218,11 @@
 		width: 90%;
 	}
 }
+
+
+h1,h2,h3,h4,h5,h6
+{
+	color: teal;
+	font-size: 22px;
+}
+
