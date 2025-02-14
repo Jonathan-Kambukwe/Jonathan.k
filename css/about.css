@@ -13,7 +13,6 @@
 }
 .details p
 {
-	font-size: 13px;
 	border-bottom: 1px solid #E0E0E0;
 	display: block;
 }
@@ -30,7 +29,7 @@
 }
 .education p
 {
-	font-size: 13px	text-align: left;
+	
 };
 
 .education h4

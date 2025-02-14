@@ -41,7 +41,6 @@
 }
 .content p
 {
-	font-size: 1rem;
 	color: lightgray;
 }
 .content h1
@@ -216,7 +215,7 @@
 {
 	.intro
 	{
-		margin-top: 10px;
+		margin-top: 120px;
 	}
 	.card
 	{
