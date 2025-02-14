@@ -26,7 +26,6 @@ h1
 	width: 25%;
 	margin: 0 0 10px 10px;
 	padding: 7% 3%;
-    backdrop-filter: blur(90px);
 	border: 1px solid rgb(161, 159, 159);
 	border-radius: 10px;
 	transition: background 0.3s ease, transform 0.3s ease;
