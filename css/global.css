@@ -11,7 +11,13 @@ body
 	color:lightgray;
 	width: 100%;
 	transition: 0.5s ease-in-out;
+    background-image: url('../img/contact.jpg'); /* Path to the image in the 'img' folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
+
 .clr
 {
 	clear: both;
@@ -40,14 +46,17 @@ body
     animation: slideDown 1s ease-in forwards;
     position: fixed;
     top: 0;
-    background: #0A0A26;
+    background: #0a0a26f6;
     width: 100%;
     height: 50px;
     z-index: 1000;
 	padding: 20px 0;
     transition: 0.5s ease-in-out;
 }
-
+.navtabs a i
+{
+    opacity: 0;
+}
 .menu 
 {
     width: 50%;
@@ -113,7 +122,13 @@ body
     color: #008080;
     transition: .3s ease-in-out;
 }
-
+.toggle-btn
+{
+    background: linear-gradient(to right , teal,seagreen);
+    background-clip: text;
+    color: transparent;
+    transition: transform .1s ease-in-out;
+}
 .btn
 {
 	text-align: center;
@@ -194,7 +209,19 @@ body
 	margin-bottom: 0px;
 	margin-top: 50px;
 	color: lightgray;
-	font-size: 14px;
+	font-size: 11px;
+	font-weight: lighter;
+}
+.footnav ul li a i 
+{
+    background: linear-gradient(to right , teal,seagreen,rebeccapurple,purple);
+    background-clip: text;
+    color: transparent;
+    font-size: 1.4rem;
+}
+i
+{
+	color: teal;
 }
 
 
@@ -261,7 +288,7 @@ a
 
 	.menu
 	{
-		width: 80%;
+		width: 90%;
 		margin: auto;
 	}
 
@@ -357,7 +384,10 @@ a
 
 	.footer
 	{
-		height: auto;
+		  height: auto;
+  padding-bottom: 90px;  /* Adjust padding as needed */
+  overflow: hidden;  /* Ensures no overflow issues */
+		width: auto;
 	}
 	.footnav
 	{

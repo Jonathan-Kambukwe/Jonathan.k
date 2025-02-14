@@ -2,15 +2,19 @@
 {
 	width:90%;
 	margin: auto;
-	margin-top: 20vh;
+	margin-top: 110px;
 }
 h1
 {
 	text-align: center;
 }
-.content p
+.card p
 {
 	font-size: 12px;
+}
+.card h1
+{
+	color: white;
 }
 .card-box
 {
@@ -22,16 +26,31 @@ h1
 	width: 25%;
 	margin: 0 0 10px 10px;
 	padding: 7% 3%;
-	border: 1px solid #008080;
+    backdrop-filter: blur(90px);
+	border: 1px solid rgb(161, 159, 159);
 	border-radius: 10px;
-	color: #0A0A26;
 	transition: background 0.3s ease, transform 0.3s ease;
 }
 .card:hover
 {
-	background: linear-gradient(white,teal,#0A0A26);
-	transform: translateY(-8px);
+	background: linear-gradient(to right , teal,seagreen,rebeccapurple,purple);
+	transform: scale(1.02);
 }
+
+.btn3
+{
+	text-decoration: none;
+}
+.btn3:hover
+{
+    background: linear-gradient(to right ,rebeccapurple,purple);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
 @media (max-width:800px)
 {
 	.card

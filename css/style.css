@@ -2,7 +2,7 @@
 {
 	width: 60%;
 	margin:auto;
-	margin-top: 200px;
+	margin-top: 150px;
 }
 .intro p
 {
@@ -30,6 +30,7 @@
 	    box-shadow: 0 0 15px #008080;
 	    transform: translateY(-15px);
 }
+
 .content
 {
 	width:55%;
@@ -213,6 +214,10 @@
 }
 @media (max-width:460px)
 {
+	.intro
+	{
+		margin-top: 10px;
+	}
 	.card
 	{
 		width: 90%;
