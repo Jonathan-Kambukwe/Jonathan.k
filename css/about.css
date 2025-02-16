@@ -2,15 +2,18 @@
 {
 	width: 55%;
 	margin: auto;
-	margin-top: 90px;
+	margin-top: 100px;
 	padding: 10px;
  	margin-bottom: 100px;
+	background: rgba(221, 222, 255, 0.034);
+	border-radius: 20px;
 }
 .details
 {
 	width: 80%;
 	margin:auto;
 }
+
 .details p
 {
 	border-bottom: 1px solid #E0E0E0;

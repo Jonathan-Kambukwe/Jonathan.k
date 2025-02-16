@@ -19,14 +19,16 @@ h1
 .card-box
 {
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 .card
 {
 	width: 40%;
 	margin: 0 0 10px 10px;
+	background: rgba(221, 222, 255, 0.034);
 	padding: 7% 3%;
-	border: 1px solid rgb(161, 159, 159);
+	/* border: 1px solid rgba(196, 195, 195, 0.062); */
 	border-radius: 10px;
 	transition: background 0.3s ease, transform 0.3s ease;
 }
@@ -34,6 +36,7 @@ h1
 {
 	background: linear-gradient(to right , teal,seagreen,rebeccapurple,purple);
 	transform: scale(1.02);
+	border: none;
 }
 
 .btn3

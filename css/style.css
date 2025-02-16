@@ -50,6 +50,10 @@
 .progress
 {
 	margin-top: 150px;
+	margin-bottom: 50px;
+	background: rgba(221, 222, 255, 0.034);
+	padding: 10px 15px;
+	border-radius: 10px;
 }
 
 .updates
